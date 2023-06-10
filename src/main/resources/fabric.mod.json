@@ -3,13 +3,12 @@
 	"id": "backrooms_assets",
 	"version": "${version}",
 	"name": "Backrooms_Assets",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod around backrooms stuff for mapmaking",
 	"authors": [
 		"Supernoob"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/SuperNoobYT/Backrooms_Assets"
 	},
 	"license": "MIT",
 	"icon": "assets/backrooms_assets/icon.png",
@@ -20,11 +19,7 @@
 		]
 	},
 	"mixins": [
-		"backrooms_assets.mixins.json",
-		{
-			"config": "backrooms_assets.client.mixins.json",
-			"environment": "client"
-		}
+		"backrooms_assets.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
