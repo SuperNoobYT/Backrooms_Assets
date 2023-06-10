@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "backrooms_assets",
 	"version": "${version}",
-	"name": "Backrooms_Assets",
+	"name": "Backrooms Assets",
 	"description": "A mod around backrooms stuff for mapmaking",
 	"authors": [
 		"Supernoob"
@@ -15,11 +15,11 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.supernoob.backroomsassets.ExampleMod"
+			"com.supernoob.backroomsassets.BackroomsAssetsMain"
 		]
 	},
 	"mixins": [
-		"backrooms_assets.mixins.json"
+		"backroomsassets.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",

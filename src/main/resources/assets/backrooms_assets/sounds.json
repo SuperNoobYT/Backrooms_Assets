@@ -1,0 +1,11 @@
+{
+  "fluorescent_light_buzz": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "backrooms_assets:fluorescent_light_buzz",
+        "stream": true
+      }
+    ]
+  }
+}
