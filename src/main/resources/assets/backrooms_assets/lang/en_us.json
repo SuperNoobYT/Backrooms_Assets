@@ -1,4 +1,8 @@
 {
+  "item.backrooms_assets.music_disc_its_just_a_burning_nether": "Music Disc",
+  "item.backrooms_assets.music_disc_its_just_a_burning_nether.desc": "Model Traitors - It's just a burning nether",
   "block.backrooms_assets.fluorescent_light": "Fluorescent Light",
+  "block.backrooms_assets.level_zero_wall": "Level 0 Wall",
+  "block.backrooms_assets.level_zero_roof": "Level 0 Roof",
   "itemgroup.backrooms_assets_group": "Backrooms Assets"
 }

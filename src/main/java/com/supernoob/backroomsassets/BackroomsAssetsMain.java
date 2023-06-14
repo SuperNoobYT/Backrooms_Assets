@@ -1,7 +1,7 @@
 package com.supernoob.backroomsassets;
 
-import com.supernoob.backroomsassets.block.FluorescentLight;
-import com.supernoob.backroomsassets.block.ModBlock;
+import com.supernoob.backroomsassets.registry.ModBlock;
+import com.supernoob.backroomsassets.registry.ModItem;
 import com.supernoob.backroomsassets.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,9 +20,13 @@ public class BackroomsAssetsMain implements ModInitializer {
 
 	public static final ItemGroup BACKROOMS_ASSETS = FabricItemGroup.builder(new Identifier("exemple", "backrooms_assets_group"))
 			.displayName(Text.literal("Backrooms Assets"))
-			.icon(() -> new ItemStack(Items.YELLOW_WOOL))
+			.icon(() -> new ItemStack(ModBlock.Level_zero_wall))
 			.entries((context, entries) -> {
 				entries.add(ModBlock.Fluorescent_Light);
+				entries.add(ModBlock.Level_zero_wall);
+				entries.add(ModBlock.Level_zero_roof);
+				entries.add(ModBlock.Level_zero_floor);
+				entries.add(ModItem.ITS_JUST_A_BURNING_NETHER);
 			})
 			.build();
 
@@ -31,6 +35,7 @@ public class BackroomsAssetsMain implements ModInitializer {
 
 		ModBlock.init();
 		ModSounds.init();
+		ModItem.init();
 	}
 
 }

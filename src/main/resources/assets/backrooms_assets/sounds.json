@@ -7,5 +7,14 @@
         "stream": true
       }
     ]
+  },
+  "its_just_a_burning_nether": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "backrooms_assets:its_just_a_burning_nether",
+        "stream": true
+      }
+    ]
   }
 }
